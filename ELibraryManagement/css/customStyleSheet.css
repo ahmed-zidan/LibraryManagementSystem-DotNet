@@ -1,0 +1,72 @@
+﻿::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(132, 1, 255);
+    border-radius: 20px;
+}
+
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+        background: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ===== Colours ===== */
+:root {
+    --body-color: #E4E9F7;
+    --nav-color: #4070f445;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+    --Dark-color: #24252657;
+}
+
+
+
+#footer1{
+    background-color:darkred;
+}
+
+#footer2{
+    background-color:red;
+}
+
+.footerLinks{
+    margin-right:2px;
+    color: white;
+    text-decoration: none !important;
+}
+.footerLinks:hover{
+    color:yellow;
+}
+
+
+
+.Book-inventory-title{
+    font-size:25px;
+    font-weight:700;
+
+}
+
+.Book-inventory-label{
+    font-weight:600;
+
+}
+
+
